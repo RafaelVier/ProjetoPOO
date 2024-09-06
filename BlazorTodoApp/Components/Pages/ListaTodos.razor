@@ -1,0 +1,37 @@
+﻿   @page "/todos"
+   @using BlazorTodoApp.Data;
+   @inject ITodoRepository TodoRepository
+   @inject NavigationManager NavigationManager
+
+   <h3>Lista de Tarefas</h3>
+
+   <ul>
+    @foreach (var todo in todos)
+    {
+               <li>@todo.Title - @(todo.IsCompleted ? "Completed" : "Pending")
+                   <button @onclick="() => DeleteTodoAsync(todo.Id)">Delete</button>
+               </li>
+    }
+   </ul>
+
+   <button @onclick="NavigateToAddTodo">Add Todo</button>
+
+@code {
+    private IEnumerable<TodoItem> todos=[];
+
+    protected override async Task OnInitializedAsync()
+    {
+        todos = await TodoRepository.GetTodosAsync();
+    }
+
+    private void NavigateToAddTodo()
+    {
+        NavigationManager.NavigateTo("/add-todo");
+    }
+
+    private async Task DeleteTodoAsync(int id)
+    {
+        await TodoRepository.DeleteTodoAsync(id);
+        todos = await TodoRepository.GetTodosAsync();
+    }
+   }

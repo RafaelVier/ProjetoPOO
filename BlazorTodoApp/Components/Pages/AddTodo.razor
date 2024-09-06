@@ -1,0 +1,21 @@
+﻿   @page "/add-todo"
+   @using BlazorTodoApp.Data;
+   @inject ITodoRepository TodoRepository
+   @inject NavigationManager NavigationManager
+
+   <h3>Adicionar Tarefa</h3>
+
+   <EditForm Model="@newTodo" OnValidSubmit="HandleValidSubmit" FormName="Form1">
+       <InputText @bind-Value="newTodo.Title" placeholder="Título" />
+       <button type="submit">Adicionar</button>
+   </EditForm>
+
+   @code {
+       private TodoItem newTodo = new TodoItem();
+
+       private async Task HandleValidSubmit()
+       {
+           await TodoRepository.AddTodoAsync(newTodo);
+           NavigationManager.NavigateTo("/todos");
+       }
+   }

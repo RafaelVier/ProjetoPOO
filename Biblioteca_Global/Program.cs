@@ -36,4 +36,4 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
-//Teste GitHub
+//Teste Correção GitHub

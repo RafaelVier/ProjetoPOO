@@ -1,0 +1,39 @@
+﻿@page "/Clientes"
+@using Biblioteca_Global.Data
+@using Biblioteca_Global.Context
+@inject IRepository<Cliente> GenericsService
+@inject NavigationManager NavigationManager
+
+<h3>Lista Clientes</h3>
+
+<ul>
+    @foreach (var cliente in clientes)
+    {
+        <li>
+            @*@cliente.Nome - @(cliente.IsCompleted ? "Completed" : "Pending")*@
+            <button @onclick="() => DeleteClienteAsync(cliente.Id)">Delete</button>
+        </li>
+    }
+</ul>
+
+<button @onclick="NavigateToAddTodo">Add Cliente</button>
+
+@code {
+    private IEnumerable<Cliente> clientes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        clientes = await IRepository<Cliente>.ObterTodos();
+    }
+
+    private void NavigateToAddTodo()
+    {
+        NavigationManager.NavigateTo("/AddCliente");
+    }
+
+    private async Task DeleteClienteAsync(int id)
+    {
+        await IRepository<Cliente>.Excluir(id);
+        clientes = await IRepository<Cliente>.ObterTodos();
+    }
+   }

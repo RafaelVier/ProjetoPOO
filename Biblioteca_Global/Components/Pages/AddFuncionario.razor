@@ -1,0 +1,119 @@
+﻿@page "/AddFuncionario"
+@using Biblioteca_Global.Data
+@using Biblioteca_Global.Context
+@inject GenericsService<Funcionario> funcionarioService
+@inject NavigationManager NavigationManager
+
+<h1>Add Novo Funcionario</h1>
+
+<hr />
+
+<EditForm Model="@Model" OnValidSubmit="CriarNovoFuncionario" FormName="AddFuncionario">
+    <div class="mb-3">
+        <label class="form-label">Nome</label>
+        <InputText @bind-Value="Model.Nome" placeholder="Nome" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">DataNascimento</label>
+        <InputDate @bind-Value="Model.DataNascimento" placeholder="DataNascimento" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Endereco</label>
+        <InputText @bind-Value="Model.Endereco" placeholder="Endereco" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Cidade</label>
+        <InputText @bind-Value="Model.Cidade" placeholder="Cidade" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Bairro</label>
+        <InputText @bind-Value="Model.Bairro" placeholder="Bairro" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <InputText @bind-Value="Model.Email" placeholder="Email" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Salario</label>
+        <InputNumber @bind-Value="Model.Salario" placeholder="Salario" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Cargo</label>
+        <InputText @bind-Value="Model.Cargo" placeholder="Cargo" />
+    </div>
+    <button class="btn btn-primary" type="submit">Adicionar</button>    
+</EditForm>
+<button class="btn btn-primary" @onclick="Cancelar">Cancelar</button>
+
+
+@code {
+    public Funcionario Model { get; set; } = new();
+
+    protected override async Task  OnInitializedAsync()
+    {
+       // Model = new Funcionario();
+    }
+
+    //    private Funcionario novoFuncionario = new Funcionario();
+    //GenericsService<Funcionario> IRepository = new GenericsService<Funcionario>();
+    private async Task CriarNovoFuncionario()
+    {
+        await funcionarioService.Add(Model);
+        NavigationManager.NavigateTo("/Funcionarios");
+    }
+    protected async Task Cancelar()
+    {
+        NavigationManager.NavigateTo("/Funcionarios");
+    }
+}
+
+@* <h3>Add Novo Funcionario</h3>
+
+<hr />
+
+<form>
+    <div class="arrow">
+        <div class="col-md-8">
+            <div class="for-group">
+                <label for="Nome" class="control-label">Nome Completo</label>
+                    <input id="Nome" class="form-control" @bind="@obj.Nome" />
+            </div>
+            <div class="for-group">
+                <label for="DataNascimento" class="control-label">Data Nascimento</label>
+                <input id="DataNascimento" class="form-control" @bind="@obj.DataNascimento" />
+            </div>
+            <div class="for-group">
+                <label for="Endereco" class="control-label">Endereco</label>
+                <input id="Endereco" class="form-control" @bind="@obj.Endereco" />
+            </div>
+            <div class="for-group">
+                <label for="Cidade" class="control-label">Cidade</label>
+                <input id="Cidade" class="form-control" @bind="@obj.Cidade" />
+            </div>
+            <div class="for-group">
+                <label for="Bairro" class="control-label">Bairro</label>
+                <input id="Bairro" class="form-control" @bind="@obj.Bairro" />
+            </div>
+            <div class="for-group">
+                <label for="Email" class="control-label">E-mail</label>
+                <input id="Email" class="form-control" @bind="@obj.Email" />
+            </div>
+            <div class="for-group">
+                <label for="Salario" class="control-label">Salario</label>
+                <input id="Salario" class="form-control" @bind="@obj.Salario" />
+            </div>
+            <div class="for-group">
+                <label for="Cargo" class="control-label">Cargo</label>
+                <input id="Cargo" class="form-control" @bind="@obj.Cargo" />
+            </div>
+        </div>
+    </div>
+    <div class"row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn-primary" @onclick="@CriarNovoFuncionario" value="Salvar Funcionario" />
+                <input type="button" class="btn-danger" @onclick="@Cancelar" value="Cancelar" />
+            </div>
+        </div>
+    </div>
+</form> *@

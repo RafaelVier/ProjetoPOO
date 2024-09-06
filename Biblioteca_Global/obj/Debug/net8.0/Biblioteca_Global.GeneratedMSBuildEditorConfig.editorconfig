@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Biblioteca_Global
+build_property.RootNamespace = Biblioteca_Global
+build_property.ProjectDir = C:\Users\Lar\source\repos\Biblioteca_Global\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lar\source\repos\Biblioteca_Global
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Pages/AddCliente.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRDbGllbnRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Pages/AddFuncionario.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRGdW5jaW9uYXJpby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Pages/ListaClientes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0YUNsaWVudGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Pages/ListaFuncionarios.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0YUZ1bmNpb25hcmlvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7egt89lb2q
+
+[C:/Users/Lar/source/repos/Biblioteca_Global/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ftdsaiqvwg

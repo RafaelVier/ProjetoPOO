@@ -1,0 +1,93 @@
+﻿@page "/Funcionarios"
+@using Biblioteca_Global.Data
+@inject GenericsService<Funcionario> genericsService
+
+<NavLink class="nav-link" href="AddFuncionario">
+    <span class="oi oi-plus" aria-hidden="true"> Add Novo Funcionario</span>
+</NavLink>
+
+<h3>ListaFuncionarios</h3>
+
+@if (Funcionarios is null)
+{
+    <p><em>Carregando.......................</em></p>
+}
+else
+{
+    <table class="table" >
+        <thead>
+            <tr>
+                <th>
+                    Fun Num
+                </th>
+                <th>
+                    Nome Funcionario
+                </th>
+                <th>
+                    Data Nascimento
+                </th>
+                <th>
+                    Endereço
+                </th>
+                <th>
+                    Cidade
+
+                </th>
+                <th>
+                    Bairro
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Salario
+                </th>
+                <th>
+                    Cargo
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var fun in Funcionarios)
+            {
+                <tr>
+                    <td>
+                        @fun.Id
+                    </td>
+                    <td>
+                        @fun.Nome
+                    </td>
+                    <td>
+                        @fun.DataNascimento
+                    </td>
+                    <td>
+                        @fun.Endereco
+                    </td>
+                    <td>
+                        @fun.Cidade
+                    </td>
+                    <td>
+                        @fun.Bairro
+                    </td>
+                    <td>
+                        @fun.Email
+                    </td>
+                    <td>
+                        @fun.Salario
+                    </td>
+                    <td>
+                        @fun.Cargo
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<Funcionario> Funcionarios;
+    protected override async Task OnInitializedAsync()
+    {
+        Funcionarios = await genericsService.ObterTodos();
+    }
+}

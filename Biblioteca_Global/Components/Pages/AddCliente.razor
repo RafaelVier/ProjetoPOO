@@ -1,0 +1,53 @@
+﻿@page "/AddCliente"
+@using Biblioteca_Global.Data
+@using Biblioteca_Global.Context
+@inject IRepository<Cliente> GenericsService
+@inject NavigationManager NavigationManager
+
+<h3>Add Cliente</h3>
+
+<EditForm Model="newCliente" OnValidSubmit="HandleValidSubmit">
+    <div class="mb-3">
+        <label class="form-label">Nome</label>
+        <InputText @bind-Value="newCliente.Nome" placeholder="Nome" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">DataNascimento</label>
+        <InputDate @bind-Value="newCliente.DataNascimento" placeholder="DataNascimento" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Endereco</label>
+        <InputText @bind-Value="newCliente.Endereco" placeholder="Endereco" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Cidade</label>
+        <InputText @bind-Value="newCliente.Cidade" placeholder="Cidade" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Bairro</label>
+        <InputText @bind-Value="newCliente.Bairro" placeholder="Bairro" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <InputText @bind-Value="newCliente.Email" placeholder="Email" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Salario</label>
+        <InputNumber @bind-Value="newCliente.Divida" placeholder="Divida" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Cargo</label>
+        <InputNumber @bind-Value="newCliente.Telefone" placeholder="Telefone" />
+    </div>
+    <button type="submit">Adicionar</button>
+</EditForm>
+
+   @code {
+    private Cliente newCliente = new Cliente();
+
+    private async Task HandleValidSubmit()
+    {
+        await IRepository<Cliente>.Add(newCliente);
+        NavigationManager.NavigateTo("/Clientes");
+    }
+   }

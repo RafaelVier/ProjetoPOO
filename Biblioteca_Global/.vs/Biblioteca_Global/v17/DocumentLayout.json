@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|c:\\users\\lar\\source\\repos\\biblioteca_global\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|c:\\users\\lar\\source\\repos\\biblioteca_global\\components\\pages\\listafuncionarios.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|solutionrelative:components\\pages\\listafuncionarios.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|c:\\users\\lar\\source\\repos\\biblioteca_global\\components\\pages\\addcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|solutionrelative:components\\pages\\addcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|c:\\users\\lar\\source\\repos\\biblioteca_global\\components\\pages\\addfuncionario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|solutionrelative:components\\pages\\addfuncionario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|c:\\users\\lar\\source\\repos\\biblioteca_global\\components\\pages\\listaclientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|solutionrelative:components\\pages\\listaclientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|c:\\users\\lar\\source\\repos\\biblioteca_global\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|solutionrelative:data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|c:\\users\\lar\\source\\repos\\biblioteca_global\\data\\genericsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|solutionrelative:data\\genericsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|c:\\users\\lar\\source\\repos\\biblioteca_global\\data\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3173D224-056B-4B87-A25D-5095E9BBE49B}|Biblioteca_Global.csproj|solutionrelative:data\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T19:54:18.974Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Data\\IRepository.cs",
+              "RelativeDocumentMoniker": "Data\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Data\\IRepository.cs",
+              "RelativeToolTip": "Data\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T19:46:35.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Data\\Cliente.cs",
+              "RelativeDocumentMoniker": "Data\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Data\\Cliente.cs",
+              "RelativeToolTip": "Data\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T19:40:52.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericsService.cs",
+              "DocumentMoniker": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Data\\GenericsService.cs",
+              "RelativeDocumentMoniker": "Data\\GenericsService.cs",
+              "ToolTip": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Data\\GenericsService.cs",
+              "RelativeToolTip": "Data\\GenericsService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAtwDEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:41:04.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddFuncionario.razor",
+              "DocumentMoniker": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Components\\Pages\\AddFuncionario.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AddFuncionario.razor",
+              "ToolTip": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Components\\Pages\\AddFuncionario.razor",
+              "RelativeToolTip": "Components\\Pages\\AddFuncionario.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T19:35:43.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCliente.razor",
+              "DocumentMoniker": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Components\\Pages\\AddCliente.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AddCliente.razor",
+              "ToolTip": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Components\\Pages\\AddCliente.razor",
+              "RelativeToolTip": "Components\\Pages\\AddCliente.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T19:24:02.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListaClientes.razor",
+              "DocumentMoniker": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Components\\Pages\\ListaClientes.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\ListaClientes.razor",
+              "ToolTip": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Components\\Pages\\ListaClientes.razor",
+              "RelativeToolTip": "Components\\Pages\\ListaClientes.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T19:16:46.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListaFuncionarios.razor",
+              "DocumentMoniker": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Components\\Pages\\ListaFuncionarios.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\ListaFuncionarios.razor",
+              "ToolTip": "C:\\Users\\Lar\\source\\repos\\Biblioteca_Global\\Components\\Pages\\ListaFuncionarios.razor",
+              "RelativeToolTip": "Components\\Pages\\ListaFuncionarios.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T17:44:54.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
